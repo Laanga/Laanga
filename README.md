@@ -30,3 +30,10 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 <b>My GitHub Stats</b>
 
 <a href="http://www.github.com/Laanga"><img src="https://github-readme-stats.vercel.app/api?username=Laanga&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="Laanga's GitHub stats" /></a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laanga/Laanga/main/snake/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laanga/Laanga/main/snake/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Laanga/Laanga/main/snake/github-snake.svg" />
+</picture>
+
