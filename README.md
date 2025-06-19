@@ -1,17 +1,12 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Álvaro Langa
-====================================================================================================================================
+<h2 align="left">
+💫 About Me:<br>
+🧑‍💻 I'm a software developer focused on building real, functional projects.<br>
+🏎️ I'm passionate about motorsport and dream of working in that field one day.<br>
+☕ I spend my days coding — powered by coffee and curiosity.<br>
+📚 I'm always exploring new technologies to expand my skills.<br>
+🌱 Currently working on becoming a better developer, improving my English.
+</h2>
 
-💫 About Me:
-
-🧑‍💻 I'm a software developer focused on building real, functional projects.
-
-🏎️ I'm passionate about motorsport and dream of working in that field one day.
-
-☕ I spend my days coding — powered by coffee and curiosity.
-
-📚 I'm always exploring new technologies to expand my skills.
-
-🌱 Currently working on becoming a better developer, improving my English, and turning my passion into a career.
 
 ### Skills
 
