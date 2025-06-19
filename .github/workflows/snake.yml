@@ -1,0 +1,21 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Ejecuta todos los días a las 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@master
+        with:
+          github_user_name: yaabys
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg
+      - uses: actions/upload-artifact@v2
+        with:
+          name: snake-animation
+          path: dist
