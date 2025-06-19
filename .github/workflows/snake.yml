@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Todos los días a medianoche UTC
+    - cron: "0 0 * * *"  # Ejecutar todos los días a las 00:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -12,18 +12,17 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate snake files in ./snake/
+      - name: Generate Snake SVG
         uses: Platane/snk@master
         with:
           github_user_name: Laanga
-          outputs: |
-            snake/github-snake.svg
-            snake/github-snake-dark.svg
+          svg_out_path: dist/github-snake.svg
+          gif_out_path: dist/github-snake.gif
 
-      - name: Commit & Push to the repo
+      - name: Commit & Push to repo
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add snake/
-          git commit -m "🐍 Actualiza GitHub Snake"
+          git add dist/
+          git commit -m "🐍 actualiza snake"
           git push
